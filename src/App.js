@@ -21,7 +21,7 @@ function App() {
     <div className="App">
       <h1 className='error'>Error</h1>
       <h1 className={styles.success}>Success</h1> 
-{/* //cant access in any other child components */}
+      {/* //cant access in any other child components */}
       {/* <Greet name="Bruce" heroName="batman">
         <p>This is children props</p>
       </Greet>
