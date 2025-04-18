@@ -21,6 +21,11 @@ import LifecycleA from './components/LifecycleA';
 import LifecycleB from './components/LifecycleB'; 
 import FragmentDemo from './components/FragmentDemo';
 import Table from './components/Table';
+import PureComp from './components/PureComp'; 
+import ParentComp from './components/ParentComp';
+import MemoComp from './components/MemoComp';
+import RefsDemo from './components/RefsDemo';
+import Input from './components/Input';
 
 function App() {
   return (
@@ -56,10 +61,12 @@ function App() {
       {/* <LifecycleA />
       <LifecycleB /> */}
 
-      <FragmentDemo />
-      <Table />
+      {/* <FragmentDemo />
+      <Table /> */}
 
-
+      {/* <ParentComp /> */}
+      {/* <RefsDemo /> */}
+    <Input />
 
 
       {/* <header className="App-header">
