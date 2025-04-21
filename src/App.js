@@ -70,7 +70,7 @@ function App() {
       {/* <RefsDemo /> */}
       {/* <Input /> */}
       {/* <FocusInput /> */}
-      <FRParentInput />
+      {/* <FRParentInput /> */}
 
 
       {/* <header className="App-header">
