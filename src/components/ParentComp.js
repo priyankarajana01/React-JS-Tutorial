@@ -19,17 +19,17 @@ class ParentComp extends Component {
             })
         }, 2000)
     }   
-  render() {
-    console.log('********* Parent Component Render *********')
-    return (
-      <div>
-        ParentComp
-        {/* <RegComp name={this.state.name} />
-        <PureComp name={this.state.name} /> */}
-        <MemoComp name={this.state.name} />
-      </div>
-    )
-  }
+    render() {
+      console.log('********* Parent Component Render *********')
+      return (
+        <div>
+          ParentComp
+          {/* <RegComp name={this.state.name} />
+          <PureComp name={this.state.name} /> */}
+          <MemoComp name={this.state.name} />
+        </div>
+      )
+    }
 }
 
 export default ParentComp
