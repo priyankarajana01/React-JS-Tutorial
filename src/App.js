@@ -26,6 +26,8 @@ import ParentComp from './components/ParentComp';
 import MemoComp from './components/MemoComp';
 import RefsDemo from './components/RefsDemo';
 import Input from './components/Input';
+import FocusInput from './components/FocusInput';
+import FRParentInput from './components/FRParentInput'; 
 
 function App() {
   return (
@@ -66,7 +68,9 @@ function App() {
 
       {/* <ParentComp /> */}
       {/* <RefsDemo /> */}
-    <Input />
+      {/* <Input /> */}
+      {/* <FocusInput /> */}
+      <FRParentInput />
 
 
       {/* <header className="App-header">
