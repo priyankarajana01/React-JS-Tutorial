@@ -39,7 +39,10 @@ import User from './components/User';
 import CounterRenderprops from './components/CounterRenderprops'; 
 import ComponentC from './components/ComponentC';
 import { UserProvider } from './components/userContext';  
-
+import HookCounter from './components/HookCounter';
+import HookCounterTwo from './components/HookCounterTwo';
+import HookCounterThree from './components/HookCounterThree';
+import HookCounterFour from './components/HookCounterFour';
 
 function App() {
   return (
@@ -105,10 +108,15 @@ function App() {
       <CounterRenderprops render={(count, incrementCount) => (
         <HoverCounterTwo count={count} incrementCount={incrementCount} />
       )} />    */}
-      <UserProvider value="xyz">
+      {/* <UserProvider value="xyz">
         <h1>Context API</h1>
         <ComponentC />    
-      </UserProvider>
+      </UserProvider> */}
+
+      {/* <HookCounter /> */}
+      {/* <HookCounterTwo /> */}
+        {/* <HookCounterThree /> */}
+      <HookCounterFour />
 
 
 
