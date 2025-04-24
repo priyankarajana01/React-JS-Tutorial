@@ -1,6 +1,6 @@
 // import logo from './logo.svg';
 import './App.css';
-
+import './appStyles.css';
 import Greet from './components/Greet';
 import Welcome from './components/Welcome';
 import Hello from './components/Hello'; 
@@ -14,7 +14,6 @@ import UserGreeting from './components/UserGreeting';
 import NameList from './components/NameList';
 import Stylesheet from './components/Stylesheet';
 import Inline from './components/Inline';
-import './appStyles.css';
 import styles from './appStyles.module.css';
 import Form from './components/Form';
 import LifecycleA from './components/LifecycleA'; 
@@ -57,20 +56,16 @@ function App() {
       <Greet name="clark" heroName="superman">
         <button>Action</button>
       </Greet>
-     
       <Welcome name="Bruce" heroName="batman" />
       <Welcome name="clark" heroName="superman" />
       <Hello />
       <Message />
       <Counter /> */}
-
-
       {/* <FunctionClick />
       <ClassClick /> */}
       {/* <Message />
       <EventBind />
       <ParentComponent /> */}
-
       {/* <UserGreeting/> */}
       {/* <NameList /> */}
       {/* <Stylesheet primary={true} />
@@ -78,10 +73,8 @@ function App() {
       {/* <Form /> */}
       {/* <LifecycleA />
       <LifecycleB /> */}
-
       {/* <FragmentDemo />
       <Table /> */}
-
       {/* <ParentComp /> */}
       {/* <RefsDemo /> */}
       {/* <Input /> */}
@@ -102,7 +95,6 @@ function App() {
       {/* <ClickCounterTwo />
       <HoverCounterTwo />
       <User render={ (isLoggedIn) => isLoggedIn ? "xyz" : "Guest"} /> */}
-
       {/*  <CounterRenderprops render={(count, incrementCount) => (
         <ClickCounterTwo count={count} incrementCount={incrementCount} />
       )} />
@@ -113,13 +105,11 @@ function App() {
         <h1>Context API</h1>
         <ComponentC />    
       </UserProvider> */}
-
       {/* <HookCounter /> */}
       {/* <HookCounterTwo /> */}
         {/* <HookCounterThree /> */}
       {/* <HookCounterFour /> */}
       <HookCounterOne />
-
 
 
       {/* <header className="App-header">
