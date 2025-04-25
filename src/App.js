@@ -45,6 +45,7 @@ import HookCounterFour from './components/HookCounterFour';
 import HookCounterOne from './components/HookCounterOne';
 import CounterOne from './components/CounterOne'; 
 import CounterTwo from './components/CounterTwo'; 
+import UseState from './components/UseState/UseState';
 
 function App() {
   return (
@@ -113,7 +114,8 @@ function App() {
       {/* <HookCounterFour /> */}
       {/* <HookCounterOne /> */}
       {/* <CounterOne /> */}
-      <CounterTwo />
+      {/* <CounterTwo /> */}
+      <UseState />
 
 
       {/* <header className="App-header">
